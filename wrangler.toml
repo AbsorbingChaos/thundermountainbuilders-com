@@ -1,4 +1,13 @@
-name = "thundermountainbuilders-com"
+name = "tmb-com"
 type = "webpack"
-account_id = ""
+account_id = "98288619169b23339dc74ce53fa0b5f1"
 workers_dev = true
+
+[site]
+bucket = "./"
+entry-point = "workers-site"
+
+[env.production]
+name="tmb-prod"
+zone_id = "ac5e63486fd1c0833ffaf665f54118cf"
+route = "thundermountainbuilders.com/*"
